@@ -4,28 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".LoginActivity"
     android:orientation="vertical"
     android:gravity="center">
 
     <EditText
-        android:id="@+id/registerEmailET"
+        android:id="@+id/loginEmailET"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"
-        android:hint="enter email"/>
+        android:hint="enter email"
+        android:inputType="textEmailAddress" />
 
     <EditText
-        android:id="@+id/registerPasswordET"
+        android:id="@+id/loginPasswordET"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="numberPassword"
-        android:hint="enter password"/>
+        android:hint="enter password"
+        android:inputType="numberPassword" />
 
     <Button
-        android:id="@+id/registerBtn"
+        android:id="@+id/loginBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="register" />
+        android:text="login" />
 
+    <Button
+        android:id="@+id/loginForgotPasswordBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="forgot password" />
 </LinearLayout>
